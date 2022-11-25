@@ -69,6 +69,8 @@ class MainActivity : AppCompatActivity() {
         allMahasiwa()
     }
 
+    //val stringRequest: StringRequest = object : StringRequest([Method], [URL], Response.Listener { response -> }, Response.ErrorListener { error -> }
+    //queue!!.add(stringRequest)
     private fun allMahasiwa() {
         srMahasiswa!!.isRefreshing = true
         val stringRequest: StringRequest = object :
